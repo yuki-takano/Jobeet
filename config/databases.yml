@@ -1,0 +1,10 @@
+all:
+  doctrine:
+    class:        sfDoctrineDatabase
+    param:
+      dsn:        mysql:host=127.0.0.1;dbname=jobeet
+      username:   root
+      password:   root
+      attributes:
+        default_table_charset: utf8
+        default_table_collate: utf8_unicode_ci
